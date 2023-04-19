@@ -10,4 +10,5 @@ elif n2>=n1 and n2>=n3:
 elif n3>=n1 and n3>=n2:
     m=n3
 if st.button('Find largest number'):
-    st.write('The largest number among the three is '+ m)        
+    st.write('The largest number among the three is ')        
+    st.write(m)
