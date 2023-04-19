@@ -1,4 +1,13 @@
 import streamlit as st
 
-number = st.number_input('Insert a number')
-st.write('The current number is ', number)
+n1 = int(st.number_input('Insert first number'))
+n2=int(st.number_input('Insert second number'))
+n3=int(st.number_input('Insert third number'))
+if n1>=n2 and n1>=n3:
+    m=n1
+elif n2>=n1 and n2>=n3:
+    m=n2
+elif n3>=n1 and n3>=n2:
+    m=n3
+if st.button('Find largest number'):
+    st.write('The largest number among the three is '+ m)        
