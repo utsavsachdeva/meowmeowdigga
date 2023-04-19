@@ -1,5 +1,5 @@
 import streamlit as st
-m=0
+m=0.00
 n1 = int(st.number_input('Insert first number'))
 n2=int(st.number_input('Insert second number'))
 n3=int(st.number_input('Insert third number'))
